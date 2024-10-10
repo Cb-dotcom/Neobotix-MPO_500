@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/RelayBoardSetSafetyMode.srv
+// generated code does not contain a copyright notice
+
+#include "neo_msgs2/msg/SafetyMode.idl"
+
+module neo_srvs2 {
+  module srv {
+    struct RelayBoardSetSafetyMode_Request {
+      neo_msgs2::msg::SafetyMode set_safety_mode;
+
+      uint8 station;
+    };
+    struct RelayBoardSetSafetyMode_Response {
+      boolean success;
+    };
+  };
+};

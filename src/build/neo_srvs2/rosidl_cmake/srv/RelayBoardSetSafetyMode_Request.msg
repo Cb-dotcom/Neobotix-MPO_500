@@ -1,0 +1,2 @@
+neo_msgs2/SafetyMode set_safety_mode
+uint8 station

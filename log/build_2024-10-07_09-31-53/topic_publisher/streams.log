@@ -1,0 +1,73 @@
+[0.023s] Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/topic_publisher -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/install/topic_publisher
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.529s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.623s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.655s] -- Looking for pthread.h
+[0.704s] -- Looking for pthread.h - found
+[0.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.756s] -- Found Threads: TRUE  
+[0.789s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.798s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.850s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.850s] -- Configured cppcheck include dirs: 
+[0.850s] -- Configured cppcheck exclude dirs and/or files: 
+[0.850s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.851s] -- Added test 'lint_cmake' to check CMake code style
+[0.851s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.852s] -- Added test 'uncrustify' to check C / C++ code style
+[0.852s] -- Configured uncrustify additional arguments: 
+[0.852s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.858s] -- Generating done
+[0.858s] -- Build files have been written to: /home/charbel/mpo500_ws/build/topic_publisher
+[0.864s] Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/topic_publisher -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/install/topic_publisher
+[0.866s] Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[0.903s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_node.dir/src/move_robot.cpp.o[0m
+[3.854s] [100%] [32m[1mLinking CXX executable move_robot_node[0m
+[4.078s] [100%] Built target move_robot_node
+[4.111s] Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[4.168s] Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher
+[4.184s] -- Install configuration: ""
+[4.185s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/lib/topic_publisher/move_robot_node
+[4.190s] -- Set runtime path of "/home/charbel/mpo500_ws/install/topic_publisher/lib/topic_publisher/move_robot_node" to ""
+[4.190s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher//launch
+[4.190s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher//launch/move_robot.launch.py
+[4.190s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/package_run_dependencies/topic_publisher
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/parent_prefix_path/topic_publisher
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/ament_prefix_path.sh
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/ament_prefix_path.dsv
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/path.sh
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/path.dsv
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.bash
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.sh
+[4.191s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.zsh
+[4.192s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.dsv
+[4.192s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.dsv
+[4.192s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/packages/topic_publisher
+[4.193s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/cmake/topic_publisherConfig.cmake
+[4.193s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/cmake/topic_publisherConfig-version.cmake
+[4.193s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.xml
+[4.193s] Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher

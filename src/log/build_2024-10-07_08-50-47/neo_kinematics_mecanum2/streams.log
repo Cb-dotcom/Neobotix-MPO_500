@@ -1,0 +1,36 @@
+[0.029s] Invoking command in '/home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2 -- -j16 -l16
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target neo_kinematics_mecanum2[0m
+[0.103s] [ 50%] Built target neo_kinematics_mecanum2
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target neo_mecanum_node[0m
+[0.129s] [100%] Built target neo_mecanum_node
+[0.144s] Invoked command in '/home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2 -- -j16 -l16
+[0.183s] Invoking command in '/home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2
+[0.192s] -- Install configuration: ""
+[0.192s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/library_path.sh
+[0.192s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/library_path.dsv
+[0.192s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/common/include/
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/common/include//Kinematics.h
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/common/include//MecanumKinematics.h
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/lib/neo_kinematics_mecanum2/neo_mecanum_node
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/launch
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/launch/test_setup.launch.py
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/launch/test_setup.yaml
+[0.193s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/ament_index/resource_index/package_run_dependencies/neo_kinematics_mecanum2
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/ament_index/resource_index/parent_prefix_path/neo_kinematics_mecanum2
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/ament_prefix_path.sh
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/ament_prefix_path.dsv
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/path.sh
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/environment/path.dsv
+[0.194s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/local_setup.bash
+[0.195s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/local_setup.sh
+[0.195s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/local_setup.zsh
+[0.195s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/local_setup.dsv
+[0.195s] -- Installing: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.dsv
+[0.195s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/ament_index/resource_index/packages/neo_kinematics_mecanum2
+[0.196s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.196s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.196s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.197s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/cmake/neo_kinematics_mecanum2Config.cmake
+[0.197s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/cmake/neo_kinematics_mecanum2Config-version.cmake
+[0.197s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.xml
+[0.203s] Invoked command in '/home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/neo_kinematics_mecanum2

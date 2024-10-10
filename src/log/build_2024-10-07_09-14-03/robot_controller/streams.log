@@ -1,0 +1,27 @@
+[0.025s] Invoking command in '/home/charbel/mpo500_ws/src/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/robot_controller -- -j16 -l16
+[0.071s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o[0m
+[5.375s] [32m[1mLinking CXX executable robot_controller_node[0m
+[5.647s] Built target robot_controller_node
+[5.658s] Invoked command in '/home/charbel/mpo500_ws/src/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/robot_controller -- -j16 -l16
+[5.750s] Invoking command in '/home/charbel/mpo500_ws/src/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/robot_controller
+[5.764s] -- Install configuration: ""
+[5.764s] -- Installing: /home/charbel/mpo500_ws/src/install/robot_controller/lib/robot_controller/robot_controller_node
+[5.767s] -- Set runtime path of "/home/charbel/mpo500_ws/src/install/robot_controller/lib/robot_controller/robot_controller_node" to ""
+[5.767s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller//launch
+[5.767s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller//launch/robot_controller.launch.py
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/path.sh
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/path.dsv
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.bash
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.sh
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.zsh
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.dsv
+[5.768s] -- Installing: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/package.dsv
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[5.768s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/package.xml
+[5.769s] Invoked command in '/home/charbel/mpo500_ws/src/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/robot_controller

@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_sub_node[0m
+[100%] Built target odom_sub_node
+-- Install configuration: ""
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/lib/topic_subscriber/odom_sub_node
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber//launch
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber//launch/sub_odom.launch.py
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/ament_index/resource_index/package_run_dependencies/topic_subscriber
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/ament_index/resource_index/parent_prefix_path/topic_subscriber
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/environment/ament_prefix_path.sh
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/environment/path.sh
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/environment/path.dsv
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/local_setup.bash
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/local_setup.sh
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/local_setup.zsh
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/local_setup.dsv
+-- Installing: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.dsv
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/ament_index/resource_index/packages/topic_subscriber
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/cmake/topic_subscriberConfig.cmake
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/cmake/topic_subscriberConfig-version.cmake
+-- Up-to-date: /home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.xml

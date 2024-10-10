@@ -1,0 +1,17 @@
+/home/charbel/mpo500_ws/src/install/robot_controller/lib/robot_controller/robot_controller_node
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller//launch/robot_controller.launch.py
+/home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+/home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/path.sh
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/environment/path.dsv
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.bash
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.sh
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.zsh
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/local_setup.dsv
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/package.dsv
+/home/charbel/mpo500_ws/src/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+/home/charbel/mpo500_ws/src/install/robot_controller/share/robot_controller/package.xml

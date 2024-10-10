@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[0.059s] [100%] Built target move_robot_node
+[0.080s] Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[0.110s] Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher
+[0.114s] -- Install configuration: ""
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/lib/topic_publisher/move_robot_node
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher//launch
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher//launch/move_robot.launch.py
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/package_run_dependencies/topic_publisher
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/parent_prefix_path/topic_publisher
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/ament_prefix_path.sh
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/ament_prefix_path.dsv
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/path.sh
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/environment/path.dsv
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.bash
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.sh
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.zsh
+[0.114s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/local_setup.dsv
+[0.114s] -- Installing: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.dsv
+[0.115s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/ament_index/resource_index/packages/topic_publisher
+[0.115s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/cmake/topic_publisherConfig.cmake
+[0.115s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/cmake/topic_publisherConfig-version.cmake
+[0.115s] -- Up-to-date: /home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.xml
+[0.132s] Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher

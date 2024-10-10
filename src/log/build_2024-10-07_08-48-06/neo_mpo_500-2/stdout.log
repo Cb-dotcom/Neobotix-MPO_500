@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/charbel/mpo500_ws/src/build/neo_mpo_500-2
+-- Install configuration: ""
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/launch
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/mapping.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/navigation.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/rviz.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/bringup.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop/teleop.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop/teleop.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/multi_robot_navigation.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test1.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test.pgm
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test1.pgm
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/mapping.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/navigation.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2/relayboard_v2.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2/relayboard_v2.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics/kinematics.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics/kinematics.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/rviz
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/rviz/test_rviz.rviz
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/phidget_imu
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/phidget_imu/imu.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/phidget_imu/imu_launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/ur
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/ur/ur_control.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/microscan3_2.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/microscan3_1.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/sick_microscan3.launch
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_1.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/sick_s300.launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_filter_1.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_2.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_filter_2.yaml
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/realsense
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/realsense/rs_launch.py
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes/SICK-MICROSCAN3.dae
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes/SICK-S300.dae
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes/MPO-500-BODY.dae
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes/cabin.dae
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/meshes/MPO-500-WHEEL.dae
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500/mpo_500.urdf.xacro
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/ament_index/resource_index/package_run_dependencies/neo_mpo_500-2
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/ament_index/resource_index/parent_prefix_path/neo_mpo_500-2
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/ament_prefix_path.sh
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/ament_prefix_path.dsv
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/path.sh
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/path.dsv
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.bash
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.sh
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.zsh
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.dsv
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/ament_index/resource_index/packages/neo_mpo_500-2
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/cmake/neo_mpo_500-2Config.cmake
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/cmake/neo_mpo_500-2Config-version.cmake
+-- Installing: /home/charbel/mpo500_ws/src/install/neo_mpo_500-2/share/neo_mpo_500-2/package.xml

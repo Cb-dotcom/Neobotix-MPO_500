@@ -1,0 +1,19 @@
+{
+  "package_name": "neo_srvs2",
+  "non_idl_tuples": [
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardSetRelay.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/IOBoardSetDigOut.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardSetLCDMsg.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/LockPlatform.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/UnlockPlatform.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/ResetOmniWheels.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardSetEMStop.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardSetSafetyMode.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardUnSetEMStop.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/RelayBoardSetLED.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/USBoardToggleSensor.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/Optimizer.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/InitializeContourMatching.srv",
+    "/home/charbel/mpo500_ws/src/neo_srvs2:srv/SetSafetyField.srv"
+  ]
+}

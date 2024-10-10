@@ -1,0 +1,2 @@
+/usr/bin/ar qc libneo_relayboard_v2-2.a CMakeFiles/neo_relayboard_v2-2.dir/common/src/NeoRelayBoardNode.cpp.o CMakeFiles/neo_relayboard_v2-2.dir/common/src/RelayBoardClient.cpp.o CMakeFiles/neo_relayboard_v2-2.dir/common/src/SerialIO.cpp.o CMakeFiles/neo_relayboard_v2-2.dir/common/src/StrUtil.cpp.o
+/usr/bin/ranlib libneo_relayboard_v2-2.a

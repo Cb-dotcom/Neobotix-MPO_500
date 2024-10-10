@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>neo_mpo_500-2</name>
+  <version>0.1.0</version>
+  <description>The neo_mpo_500 package for ROS-2</description>
+
+  <maintainer email="ros@neobotix.de">Neobotix</maintainer>
+  <license>BSD</license>
+  <url type="website">http://www.neobotix-robots.com</url>
+  <author email="padmanabhan@neobotix.de">Pradheep Padmanabhan</author> 
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+
+  <!-- Dependencies for neo_nav2_bringup-->
+  <exec_depend>neo_nav2_bringup</exec_depend>
+
+  <!-- Dependencies for UR libraries -->
+  <exec_depend>ur_client_library</exec_depend>
+  <exec_depend>ur_description</exec_depend>
+  <exec_depend>ur_msgs</exec_depend>
+  <exec_depend>ur_robot_driver</exec_depend>
+
+  <!-- Dependencies for Phidget IMU -->
+  <exec_depend>phidgets_drivers</exec_depend>
+
+  <!-- Dependencies for Realsense camera -->
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>realsense2_camera_msgs</exec_depend>
+  <exec_depend>realsense2_description</exec_depend>
+
+  <!-- Dependencies for xacro -->
+  <exec_depend>xacro</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

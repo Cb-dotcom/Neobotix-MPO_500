@@ -1,0 +1,24 @@
+[0.033s] Invoking command in '/home/charbel/mpo500_ws/src/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/topic_subscriber -- -j16 -l16
+[0.074s] [100%] Built target odom_sub_node
+[0.092s] Invoked command in '/home/charbel/mpo500_ws/src/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/topic_subscriber -- -j16 -l16
+[0.132s] Invoking command in '/home/charbel/mpo500_ws/src/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/topic_subscriber
+[0.138s] -- Install configuration: ""
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/lib/topic_subscriber/odom_sub_node
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber//launch
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber//launch/sub_odom.launch.py
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/ament_index/resource_index/package_run_dependencies/topic_subscriber
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/ament_index/resource_index/parent_prefix_path/topic_subscriber
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/environment/path.sh
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/environment/path.dsv
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/local_setup.bash
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/local_setup.sh
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/local_setup.zsh
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/local_setup.dsv
+[0.138s] -- Installing: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/package.dsv
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/ament_index/resource_index/packages/topic_subscriber
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/cmake/topic_subscriberConfig.cmake
+[0.138s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/cmake/topic_subscriberConfig-version.cmake
+[0.139s] -- Up-to-date: /home/charbel/mpo500_ws/src/install/topic_subscriber/share/topic_subscriber/package.xml
+[0.148s] Invoked command in '/home/charbel/mpo500_ws/src/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/topic_subscriber

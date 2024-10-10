@@ -1,0 +1,6 @@
+Invoking command in '/home/charbel/mpo500_ws/src/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/src/install/neo_teleop2
+Invoked command in '/home/charbel/mpo500_ws/src/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/src/install/neo_teleop2
+Invoking command in '/home/charbel/mpo500_ws/src/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/neo_teleop2 -- -j16 -l16
+Invoked command in '/home/charbel/mpo500_ws/src/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/src/build/neo_teleop2 -- -j16 -l16
+Invoking command in '/home/charbel/mpo500_ws/src/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/neo_teleop2
+Invoked command in '/home/charbel/mpo500_ws/src/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/src/build/neo_teleop2

@@ -1,0 +1,13 @@
+[0.028s] Invoking command in '/home/charbel/mpo500_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16
+[0.070s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o[0m
+[1.457s] [01m[K/home/charbel/mpo500_ws/src/robot_controller/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.457s] [01m[K/home/charbel/mpo500_ws/src/robot_controller/src/robot_controller.cpp:69:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.457s]    69 |     publishVelocity(0.3, 0)
+[1.457s]       |                            [01;31m[K^[m[K
+[1.457s]       |                            [32m[K;[m[K
+[1.457s]    70 |     [32m[K}[m[K
+[1.457s]       |     [32m[K~[m[K                       
+[2.926s] gmake[2]: *** [CMakeFiles/robot_controller_node.dir/build.make:90: CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o] Error 1
+[2.926s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_controller_node.dir/all] Error 2
+[2.926s] gmake: *** [Makefile:146: all] Error 2
+[2.928s] Invoked command in '/home/charbel/mpo500_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16

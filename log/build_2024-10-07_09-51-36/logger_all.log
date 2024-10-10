@@ -1,0 +1,862 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78d6de635060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78d6de634a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78d6de634a60>>)
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.150s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/charbel/mpo500_ws'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_common2' with type 'ros.ament_cmake' and name 'neo_common2'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_kinematics_mecanum2) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_kinematics_mecanum2' with type 'ros.ament_cmake' and name 'neo_kinematics_mecanum2'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_mpo_500-2) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_mpo_500-2' with type 'ros.ament_cmake' and name 'neo_mpo_500-2'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_msgs2' with type 'ros.ament_cmake' and name 'neo_msgs2'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_nav2_bringup' with type 'ros.ament_cmake' and name 'neo_nav2_bringup'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_relayboard_v2-2) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_relayboard_v2-2' with type 'ros.ament_cmake' and name 'neo_relayboard_v2-2'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_simulation2' with type 'ros.ament_cmake' and name 'neo_simulation2'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_srvs2' with type 'ros.ament_cmake' and name 'neo_srvs2'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_teleop2' with type 'ros.ament_cmake' and name 'neo_teleop2'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_cmake' and name 'robot_controller'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_publisher) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_publisher' with type 'ros.ament_cmake' and name 'topic_publisher'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_subscriber) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_subscriber' with type 'ros.ament_cmake' and name 'topic_subscriber'
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/charbel/mpo500_ws/install
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/humble
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'neo_common2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_common2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_common2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_common2', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'neo_kinematics_mecanum2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_kinematics_mecanum2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_kinematics_mecanum2', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'neo_msgs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_msgs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_msgs2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_msgs2', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'neo_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_nav2_bringup', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'neo_teleop2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_teleop2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_teleop2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_teleop2', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/robot_controller', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'topic_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/topic_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/topic_publisher', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/topic_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'topic_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'topic_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/topic_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/topic_subscriber', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/topic_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'neo_mpo_500-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_mpo_500-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_mpo_500-2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_mpo_500-2', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'neo_simulation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_simulation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_simulation2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_simulation2', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'neo_srvs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_srvs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_srvs2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_srvs2', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'neo_relayboard_v2-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'neo_relayboard_v2-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charbel/mpo500_ws/build/neo_relayboard_v2-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2', 'merge_install': False, 'path': '/home/charbel/mpo500_ws/src/neo_relayboard_v2-2', 'symlink_install': False, 'test_result_base': None}
+[0.218s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_msgs2' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_msgs2'
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_nav2_bringup' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_nav2_bringup'
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_common2' with build type 'ament_cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_common2'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_kinematics_mecanum2' with build type 'ament_cmake'
+[0.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_kinematics_mecanum2'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_teleop2' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_teleop2'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/robot_controller' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/robot_controller'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/topic_publisher' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/topic_publisher'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/topic_subscriber' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/topic_subscriber'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_msgs2 -- -j16 -l16
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_nav2_bringup -- -j16 -l16
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_common2 -- -j16 -l16
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_kinematics_mecanum2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_kinematics_mecanum2 -- -j16 -l16
+[0.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_teleop2 -- -j16 -l16
+[0.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_subscriber -- -j16 -l16
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_nav2_bringup -- -j16 -l16
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_common2 -- -j16 -l16
+[0.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_nav2_bringup
+[0.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_common2
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_teleop2 -- -j16 -l16
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_publisher -- -j16 -l16
+[0.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_nav2_bringup)
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_nav2_bringup
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup' for CMake module files
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup' for CMake config files
+[0.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_nav2_bringup', 'cmake_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.sh'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/bin'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/lib/pkgconfig/neo_nav2_bringup.pc'
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/lib/python3.10/site-packages'
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/bin'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.bash'
+[0.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.zsh'
+[0.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/colcon-core/packages/neo_nav2_bringup)
+[0.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_common2)
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_common2
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2' for CMake module files
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2' for CMake config files
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_common2', 'cmake_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.sh'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/bin'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/lib/pkgconfig/neo_common2.pc'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/lib/python3.10/site-packages'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/bin'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.bash'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.zsh'
+[0.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_common2/share/colcon-core/packages/neo_common2)
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_subscriber -- -j16 -l16
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_kinematics_mecanum2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_kinematics_mecanum2 -- -j16 -l16
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/topic_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_teleop2
+[0.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_publisher)
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher' for CMake module files
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/topic_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_publisher
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher' for CMake config files
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_publisher', 'cmake_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.sh'
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/bin'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib/pkgconfig/topic_publisher.pc'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib/python3.10/site-packages'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/bin'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.bash'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.zsh'
+[0.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/topic_publisher/share/colcon-core/packages/topic_publisher)
+[0.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_nav2_bringup)
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup' for CMake module files
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup' for CMake config files
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_nav2_bringup', 'cmake_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.sh'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/bin'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/lib/pkgconfig/neo_nav2_bringup.pc'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/lib/python3.10/site-packages'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_nav2_bringup/bin'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.bash'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/neo_nav2_bringup/package.zsh'
+[0.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_nav2_bringup/share/colcon-core/packages/neo_nav2_bringup)
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_subscriber
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_kinematics_mecanum2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_kinematics_mecanum2
+[0.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_common2)
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2' for CMake module files
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2' for CMake config files
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_common2', 'cmake_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.sh'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/bin'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/lib/pkgconfig/neo_common2.pc'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/lib/python3.10/site-packages'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_common2/bin'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.ps1'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.bash'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_common2/share/neo_common2/package.zsh'
+[0.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_common2/share/colcon-core/packages/neo_common2)
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_mpo_500-2' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_mpo_500-2'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_simulation2' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_simulation2'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_teleop2)
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2' for CMake module files
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_teleop2
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2' for CMake config files
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_teleop2', 'cmake_prefix_path')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.sh'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/bin'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib/pkgconfig/neo_teleop2.pc'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib/python3.10/site-packages'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/bin'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.dsv'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.bash'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.zsh'
+[0.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_teleop2/share/colcon-core/packages/neo_teleop2)
+[0.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_publisher)
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher' for CMake module files
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher' for CMake config files
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_publisher', 'cmake_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.dsv'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/hook/cmake_prefix_path.sh'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/bin'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib/pkgconfig/topic_publisher.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/lib/python3.10/site-packages'
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_publisher/bin'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.bash'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_publisher/share/topic_publisher/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/topic_publisher/share/colcon-core/packages/topic_publisher)
+[0.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_kinematics_mecanum2)
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2' for CMake module files
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2' for CMake config files
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_kinematics_mecanum2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_kinematics_mecanum2
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_kinematics_mecanum2', 'cmake_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.ps1'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.sh'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/bin'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib/pkgconfig/neo_kinematics_mecanum2.pc'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib/python3.10/site-packages'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/bin'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.zsh'
+[0.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/colcon-core/packages/neo_kinematics_mecanum2)
+[0.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_subscriber)
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber' for CMake module files
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_subscriber
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber' for CMake config files
+[0.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_subscriber', 'cmake_prefix_path')
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.sh'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/bin'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib/pkgconfig/topic_subscriber.pc'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib/python3.10/site-packages'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/bin'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.bash'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.zsh'
+[0.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/topic_subscriber/share/colcon-core/packages/topic_subscriber)
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_mpo_500-2 -- -j16 -l16
+[0.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_teleop2)
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2' for CMake module files
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_simulation2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_simulation2 -- -j16 -l16
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2' for CMake config files
+[0.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_teleop2', 'cmake_prefix_path')
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.ps1'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.dsv'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.sh'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/bin'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib/pkgconfig/neo_teleop2.pc'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/lib/python3.10/site-packages'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_teleop2/bin'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.sh'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.bash'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_teleop2/share/neo_teleop2/package.zsh'
+[0.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_teleop2/share/colcon-core/packages/neo_teleop2)
+[0.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_subscriber)
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber' for CMake module files
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber' for CMake config files
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_subscriber', 'cmake_prefix_path')
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.dsv'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/hook/cmake_prefix_path.sh'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/bin'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib/pkgconfig/topic_subscriber.pc'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/lib/python3.10/site-packages'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/topic_subscriber/bin'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.dsv'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.bash'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/topic_subscriber/share/topic_subscriber/package.zsh'
+[0.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/topic_subscriber/share/colcon-core/packages/topic_subscriber)
+[0.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_kinematics_mecanum2)
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2' for CMake module files
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2' for CMake config files
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_kinematics_mecanum2', 'cmake_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/hook/cmake_prefix_path.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/bin'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib/pkgconfig/neo_kinematics_mecanum2.pc'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib/python3.10/site-packages'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.bash'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/neo_kinematics_mecanum2/package.zsh'
+[0.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/share/colcon-core/packages/neo_kinematics_mecanum2)
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_mpo_500-2 -- -j16 -l16
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_simulation2 -- -j16 -l16
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_mpo_500-2
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_simulation2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_simulation2
+[0.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_mpo_500-2)
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2' for CMake module files
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_mpo_500-2
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2' for CMake config files
+[0.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_mpo_500-2', 'cmake_prefix_path')
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.ps1'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.sh'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/bin'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/lib/pkgconfig/neo_mpo_500-2.pc'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/lib/python3.10/site-packages'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/bin'
+[0.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.sh'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.bash'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.zsh'
+[0.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/colcon-core/packages/neo_mpo_500-2)
+[0.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_simulation2)
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_simulation2
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2' for CMake module files
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2' for CMake config files
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_simulation2', 'cmake_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.sh'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/bin'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/lib/pkgconfig/neo_simulation2.pc'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/lib/python3.10/site-packages'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/bin'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.sh'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.bash'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.zsh'
+[0.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_simulation2/share/colcon-core/packages/neo_simulation2)
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_msgs2 -- -j16 -l16
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_mpo_500-2)
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2' for CMake config files
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_mpo_500-2', 'cmake_prefix_path')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/lib/pkgconfig/neo_mpo_500-2.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/lib/python3.10/site-packages'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_mpo_500-2/bin'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.sh'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.bash'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/neo_mpo_500-2/package.zsh'
+[0.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_mpo_500-2/share/colcon-core/packages/neo_mpo_500-2)
+[0.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_simulation2)
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2' for CMake module files
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2' for CMake config files
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_simulation2', 'cmake_prefix_path')
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/bin'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/lib/pkgconfig/neo_simulation2.pc'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/lib/python3.10/site-packages'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_simulation2/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_simulation2/share/neo_simulation2/package.zsh'
+[0.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_simulation2/share/colcon-core/packages/neo_simulation2)
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_msgs2
+[0.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_msgs2)
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2' for CMake module files
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_msgs2
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2' for CMake config files
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'cmake_prefix_path')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib'
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'ld_library_path_lib')
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.sh'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/bin'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib/pkgconfig/neo_msgs2.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/bin'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.sh'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_msgs2/share/colcon-core/packages/neo_msgs2)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_msgs2)
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2' for CMake module files
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2' for CMake config files
+[0.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'cmake_prefix_path')
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.sh'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib'
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'ld_library_path_lib')
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.sh'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/bin'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib/pkgconfig/neo_msgs2.pc'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/lib/python3.10/site-packages'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_msgs2/bin'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.sh'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.bash'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_msgs2/share/neo_msgs2/package.zsh'
+[0.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_msgs2/share/colcon-core/packages/neo_msgs2)
+[0.958s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_srvs2' with build type 'ament_cmake'
+[0.958s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_srvs2'
+[0.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_srvs2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_srvs2 -- -j16 -l16
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_srvs2 -- -j16 -l16
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_srvs2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_srvs2
+[1.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_srvs2)
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2' for CMake module files
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_srvs2
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2' for CMake config files
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'cmake_prefix_path')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.sh'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib'
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'ld_library_path_lib')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/bin'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib/pkgconfig/neo_srvs2.pc'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib/python3.10/site-packages'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/bin'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.sh'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.bash'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.zsh'
+[1.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_srvs2/share/colcon-core/packages/neo_srvs2)
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_srvs2)
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2' for CMake module files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'cmake_prefix_path')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.ps1'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.dsv'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'ld_library_path_lib')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.sh'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/bin'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib/pkgconfig/neo_srvs2.pc'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/lib/python3.10/site-packages'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_srvs2/bin'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.sh'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.bash'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_srvs2/share/neo_srvs2/package.zsh'
+[1.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_srvs2/share/colcon-core/packages/neo_srvs2)
+[1.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charbel/mpo500_ws/src/neo_relayboard_v2-2' with build type 'ament_cmake'
+[1.785s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charbel/mpo500_ws/src/neo_relayboard_v2-2'
+[1.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_relayboard_v2-2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_common2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_relayboard_v2-2 -- -j16 -l16
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_relayboard_v2-2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_common2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/charbel/mpo500_ws/build/neo_relayboard_v2-2 -- -j16 -l16
+[1.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/neo_relayboard_v2-2': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_common2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_relayboard_v2-2
+[1.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_relayboard_v2-2)
+[1.916s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2' for CMake module files
+[1.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/neo_relayboard_v2-2' returned '0': CMAKE_PREFIX_PATH=/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_common2:/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/opt/ros/humble LD_LIBRARY_PATH=/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/charbel/mpo500_ws/build/neo_relayboard_v2-2
+[1.916s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2' for CMake config files
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_relayboard_v2-2', 'cmake_prefix_path')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.sh'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/bin'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib/pkgconfig/neo_relayboard_v2-2.pc'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib/python3.10/site-packages'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/bin'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.ps1'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.sh'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.bash'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.zsh'
+[1.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/colcon-core/packages/neo_relayboard_v2-2)
+[1.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_relayboard_v2-2)
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2' for CMake module files
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2' for CMake config files
+[1.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_relayboard_v2-2', 'cmake_prefix_path')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.ps1'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/hook/cmake_prefix_path.sh'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/bin'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib/pkgconfig/neo_relayboard_v2-2.pc'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib/python3.10/site-packages'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/bin'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.sh'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.bash'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/neo_relayboard_v2-2/package.zsh'
+[1.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/share/colcon-core/packages/neo_relayboard_v2-2)
+[5.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16
+[5.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charbel/mpo500_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/robot_controller
+[5.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller' for CMake module files
+[5.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charbel/mpo500_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/robot_controller
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller' for CMake config files
+[5.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'cmake_prefix_path')
+[5.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.ps1'
+[5.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.dsv'
+[5.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.sh'
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib'
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/bin'
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib/python3.10/site-packages'
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/bin'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.ps1'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.dsv'
+[5.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.sh'
+[5.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.bash'
+[5.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.zsh'
+[5.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[5.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller' for CMake module files
+[5.857s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller' for CMake config files
+[5.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'cmake_prefix_path')
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.ps1'
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.dsv'
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.sh'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/bin'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/lib/python3.10/site-packages'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/charbel/mpo500_ws/install/robot_controller/bin'
+[5.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.ps1'
+[5.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.dsv'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.sh'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.bash'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.zsh'
+[5.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charbel/mpo500_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[5.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.859s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.865s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.865s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.865s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.890s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charbel/mpo500_ws/install/local_setup.ps1'
+[5.894s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charbel/mpo500_ws/install/_local_setup_util_ps1.py'
+[5.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charbel/mpo500_ws/install/setup.ps1'
+[5.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charbel/mpo500_ws/install/local_setup.sh'
+[5.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charbel/mpo500_ws/install/_local_setup_util_sh.py'
+[5.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charbel/mpo500_ws/install/setup.sh'
+[5.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charbel/mpo500_ws/install/local_setup.bash'
+[5.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charbel/mpo500_ws/install/setup.bash'
+[5.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charbel/mpo500_ws/install/local_setup.zsh'
+[5.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charbel/mpo500_ws/install/setup.zsh'

@@ -1,0 +1,10 @@
+[01m[K/home/charbel/mpo500_ws/src/robot_controller/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/charbel/mpo500_ws/src/robot_controller/src/robot_controller.cpp:69:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   69 |     publishVelocity(0.3, 0)
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+   70 |     [32m[K}[m[K
+      |     [32m[K~[m[K                       
+gmake[2]: *** [CMakeFiles/robot_controller_node.dir/build.make:90: CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

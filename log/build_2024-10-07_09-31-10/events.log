@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (-) JobUnselected: {'identifier': 'neo_common2'}
+[0.000578] (-) JobUnselected: {'identifier': 'neo_kinematics_mecanum2'}
+[0.000649] (-) JobUnselected: {'identifier': 'neo_mpo_500-2'}
+[0.000676] (-) JobUnselected: {'identifier': 'neo_msgs2'}
+[0.000703] (-) JobUnselected: {'identifier': 'neo_nav2_bringup'}
+[0.000727] (-) JobUnselected: {'identifier': 'neo_relayboard_v2-2'}
+[0.000759] (-) JobUnselected: {'identifier': 'neo_simulation2'}
+[0.000783] (-) JobUnselected: {'identifier': 'neo_srvs2'}
+[0.000807] (-) JobUnselected: {'identifier': 'neo_teleop2'}
+[0.000879] (-) JobUnselected: {'identifier': 'topic_publisher'}
+[0.000904] (-) JobUnselected: {'identifier': 'topic_subscriber'}
+[0.000931] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000960] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.006282] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.006580] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/charbel/mpo500_ws/src/robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/install/robot_controller'], 'cwd': '/home/charbel/mpo500_ws/build/robot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'charbel'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charbel'), ('OLDPWD', '/home/charbel/mpo500_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1837'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '50809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/charbel/mpo500_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charbel'), ('JOURNAL_STREAM', '8:20640'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charbel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/charbel/mpo500_ws/src/neo_simulation2/models:/home/charbel/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sin-chin:@/tmp/.ICE-unix/2002,unix/sin-chin:/tmp/.ICE-unix/2002'), ('INVOCATION_ID', '74d203c2268e4aa28115412f665d2065'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1X6U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:47f72f3f-fd26-454b-be44-ca35927b1f89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/charbel/mpo500_ws/build/robot_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/charbel/mpo500_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/charbel/mpo500_ws/install/neo_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble')]), 'shell': False}
+[0.091254] (robot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099915] (-) TimerEvent: {}
+[0.174694] (robot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.180004] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200177] (-) TimerEvent: {}
+[0.296746] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300287] (-) TimerEvent: {}
+[0.301521] (robot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.301617] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.301924] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.303933] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400485] (-) TimerEvent: {}
+[0.405879] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.411288] (robot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.411438] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.412020] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.414033] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500681] (-) TimerEvent: {}
+[0.521904] (robot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.582028] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600753] (-) TimerEvent: {}
+[0.606728] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.609601] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.614597] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.622061] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.631911] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.660623] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.662289] (robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700941] (-) TimerEvent: {}
+[0.779942] (robot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.801174] (-) TimerEvent: {}
+[0.815622] (robot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.846702] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.851522] (robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901284] (-) TimerEvent: {}
+[0.930223] (robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.930995] (robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001481] (-) TimerEvent: {}
+[1.065777] (robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.067131] (robot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101616] (-) TimerEvent: {}
+[1.111089] (robot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.132884] (robot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.183525] (robot_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.183632] (robot_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.183671] (robot_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.183795] (robot_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.184118] (robot_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.184512] (robot_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.185066] (robot_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.185142] (robot_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.185260] (robot_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.186022] (robot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.191104] (robot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.191948] (robot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/charbel/mpo500_ws/build/robot_controller\n'}
+[1.197115] (robot_controller) CommandEnded: {'returncode': 0}
+[1.198655] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[1.198691] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/charbel/mpo500_ws/build/robot_controller', '--', '-j16', '-l16'], 'cwd': '/home/charbel/mpo500_ws/build/robot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'charbel'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charbel'), ('OLDPWD', '/home/charbel/mpo500_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1837'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '50809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/charbel/mpo500_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charbel'), ('JOURNAL_STREAM', '8:20640'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charbel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/charbel/mpo500_ws/src/neo_simulation2/models:/home/charbel/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sin-chin:@/tmp/.ICE-unix/2002,unix/sin-chin:/tmp/.ICE-unix/2002'), ('INVOCATION_ID', '74d203c2268e4aa28115412f665d2065'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1X6U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:47f72f3f-fd26-454b-be44-ca35927b1f89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/charbel/mpo500_ws/build/robot_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/charbel/mpo500_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/charbel/mpo500_ws/install/neo_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble')]), 'shell': False}
+[1.201691] (-) TimerEvent: {}
+[1.280361] (robot_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/main.cpp.o\x1b[0m\n'}
+[1.282606] (robot_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[1.301869] (-) TimerEvent: {}
+[1.402168] (-) TimerEvent: {}
+[1.502500] (-) TimerEvent: {}
+[1.602828] (-) TimerEvent: {}
+[1.703180] (-) TimerEvent: {}
+[1.803531] (-) TimerEvent: {}
+[1.903872] (-) TimerEvent: {}
+[2.004217] (-) TimerEvent: {}
+[2.104438] (-) TimerEvent: {}
+[2.204680] (-) TimerEvent: {}
+[2.304909] (-) TimerEvent: {}
+[2.405258] (-) TimerEvent: {}
+[2.505599] (-) TimerEvent: {}
+[2.605936] (-) TimerEvent: {}
+[2.706273] (-) TimerEvent: {}
+[2.806623] (-) TimerEvent: {}
+[2.906956] (-) TimerEvent: {}
+[3.007286] (-) TimerEvent: {}
+[3.107507] (-) TimerEvent: {}
+[3.207818] (-) TimerEvent: {}
+[3.308136] (-) TimerEvent: {}
+[3.408494] (-) TimerEvent: {}
+[3.508867] (-) TimerEvent: {}
+[3.609197] (-) TimerEvent: {}
+[3.709527] (-) TimerEvent: {}
+[3.809848] (-) TimerEvent: {}
+[3.910198] (-) TimerEvent: {}
+[4.010520] (-) TimerEvent: {}
+[4.110839] (-) TimerEvent: {}
+[4.211171] (-) TimerEvent: {}
+[4.311507] (-) TimerEvent: {}
+[4.411841] (-) TimerEvent: {}
+[4.512165] (-) TimerEvent: {}
+[4.612489] (-) TimerEvent: {}
+[4.712757] (-) TimerEvent: {}
+[4.813063] (-) TimerEvent: {}
+[4.913278] (-) TimerEvent: {}
+[5.013489] (-) TimerEvent: {}
+[5.113699] (-) TimerEvent: {}
+[5.213996] (-) TimerEvent: {}
+[5.314309] (-) TimerEvent: {}
+[5.414547] (-) TimerEvent: {}
+[5.514850] (-) TimerEvent: {}
+[5.615175] (-) TimerEvent: {}
+[5.715389] (-) TimerEvent: {}
+[5.815696] (-) TimerEvent: {}
+[5.916013] (-) TimerEvent: {}
+[6.016336] (-) TimerEvent: {}
+[6.116595] (-) TimerEvent: {}
+[6.216931] (-) TimerEvent: {}
+[6.317280] (-) TimerEvent: {}
+[6.344443] (robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_controller_node\x1b[0m\n'}
+[6.417371] (-) TimerEvent: {}
+[6.517691] (-) TimerEvent: {}
+[6.603424] (robot_controller) StdoutLine: {'line': b'[100%] Built target robot_controller_node\n'}
+[6.612819] (robot_controller) CommandEnded: {'returncode': 0}
+[6.617791] (-) TimerEvent: {}
+[6.660808] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'install'}
+[6.675201] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/charbel/mpo500_ws/build/robot_controller'], 'cwd': '/home/charbel/mpo500_ws/build/robot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'charbel'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charbel/mpo500_ws/install/neo_relayboard_v2-2/lib:/home/charbel/mpo500_ws/install/neo_srvs2/lib:/home/charbel/mpo500_ws/install/neo_msgs2/lib:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charbel'), ('OLDPWD', '/home/charbel/mpo500_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1837'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '50809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/charbel/mpo500_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charbel'), ('JOURNAL_STREAM', '8:20640'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charbel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/charbel/mpo500_ws/src/neo_simulation2/models:/home/charbel/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sin-chin:@/tmp/.ICE-unix/2002,unix/sin-chin:/tmp/.ICE-unix/2002'), ('INVOCATION_ID', '74d203c2268e4aa28115412f665d2065'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R1X6U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:47f72f3f-fd26-454b-be44-ca35927b1f89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/charbel/mpo500_ws/build/robot_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/charbel/mpo500_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/charbel/mpo500_ws/install/neo_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/charbel/mpo500_ws/install/topic_subscriber:/home/charbel/mpo500_ws/install/topic_publisher:/home/charbel/mpo500_ws/install/robot_controller:/home/charbel/mpo500_ws/install/neo_teleop2:/home/charbel/mpo500_ws/install/neo_relayboard_v2-2:/home/charbel/mpo500_ws/install/neo_srvs2:/home/charbel/mpo500_ws/install/neo_simulation2:/home/charbel/mpo500_ws/install/neo_mpo_500-2:/home/charbel/mpo500_ws/install/neo_nav2_bringup:/home/charbel/mpo500_ws/install/neo_msgs2:/home/charbel/mpo500_ws/install/neo_kinematics_mecanum2:/home/charbel/mpo500_ws/install/neo_common2:/opt/ros/humble')]), 'shell': False}
+[6.691328] (robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.691719] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/lib/robot_controller/robot_controller_node\n'}
+[6.694507] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/charbel/mpo500_ws/install/robot_controller/lib/robot_controller/robot_controller_node" to ""\n'}
+[6.694644] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller//launch\n'}
+[6.694702] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller//launch/robot_controller.launch.py\n'}
+[6.694888] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller\n'}
+[6.695056] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller\n'}
+[6.695118] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh\n'}
+[6.695340] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv\n'}
+[6.695429] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/environment/path.sh\n'}
+[6.695482] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/environment/path.dsv\n'}
+[6.695530] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/local_setup.bash\n'}
+[6.695606] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/local_setup.sh\n'}
+[6.695651] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/local_setup.zsh\n'}
+[6.695690] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/local_setup.dsv\n'}
+[6.695729] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.dsv\n'}
+[6.695767] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller\n'}
+[6.695807] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake\n'}
+[6.695876] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake\n'}
+[6.695917] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/charbel/mpo500_ws/install/robot_controller/share/robot_controller/package.xml\n'}
+[6.696965] (robot_controller) CommandEnded: {'returncode': 0}
+[6.717991] (-) TimerEvent: {}
+[6.818389] (-) TimerEvent: {}
+[6.839689] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[6.842046] (-) EventReactorShutdown: {}

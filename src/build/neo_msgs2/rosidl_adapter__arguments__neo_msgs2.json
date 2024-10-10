@@ -1,0 +1,16 @@
+{
+  "package_name": "neo_msgs2",
+  "non_idl_tuples": [
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/EmergencyStopState.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/Keypad.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/LCDOutput.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/RelayBoardV2.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/USBoard.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/USBoardV2.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/IOBoard.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/SafetyMode.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/SafetyState.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/RelayBoardV3.msg",
+    "/home/charbel/mpo500_ws/src/neo_msgs2:msg/KinematicsState.msg"
+  ]
+}

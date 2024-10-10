@@ -1,0 +1,2 @@
+Invoking command in '/home/charbel/mpo500_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16
+Invoked command in '/home/charbel/mpo500_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/robot_controller -- -j16 -l16

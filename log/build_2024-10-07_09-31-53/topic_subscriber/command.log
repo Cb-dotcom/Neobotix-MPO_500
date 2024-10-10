@@ -1,0 +1,6 @@
+Invoking command in '/home/charbel/mpo500_ws/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/topic_subscriber -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/install/topic_subscriber
+Invoked command in '/home/charbel/mpo500_ws/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/charbel/mpo500_ws/src/topic_subscriber -DCMAKE_INSTALL_PREFIX=/home/charbel/mpo500_ws/install/topic_subscriber
+Invoking command in '/home/charbel/mpo500_ws/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_subscriber -- -j16 -l16
+Invoked command in '/home/charbel/mpo500_ws/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/charbel/mpo500_ws/build/topic_subscriber -- -j16 -l16
+Invoking command in '/home/charbel/mpo500_ws/build/topic_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_subscriber
+Invoked command in '/home/charbel/mpo500_ws/build/topic_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/charbel/mpo500_ws/build/topic_subscriber
